@@ -17,6 +17,6 @@ terraform {
 
 //noinspection HILConvertToHCL
 provider "exoscale" {
-  key = var.exoscale_key
+  key = "${var.exoscale_key}"
   secret = "${var.exoscale_secret}"
 }
